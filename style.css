@@ -1,6 +1,11 @@
 body {
     backgroun-color: bisque;
     font-family: bai jamjuree;
+    :root {
+        --text-color:#DBE4EF;
+        --card-front-color:#144480;
+        --card-back-color:#00F4BF;
+    }
 }
 
 #container {
