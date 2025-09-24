@@ -1,3 +1,8 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color:#144480;
+    --card-
+}
 body {
     backgroun-color: bisque;
     font-family: bai jamjuree;
@@ -49,4 +54,30 @@ footer p{
     text-align:center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
+}
+
+.cartao_conteudo_pergunta p{
+    color:var(--text-color);
+    font-weight: 500;
+}
+
+.catao_conteudo_reposta p{
+    color:var(--card-back-color);
+    font-weight:700;
+}
+
+.cartao:hover .cartao_conteudo{
+    transform: rotatey( 180deg);
+}
+
+.cartao_conteudo_resposta;
+.cartao_conteudo_resposta{
+    backface-visibility: hidden;
+    position:absolute;
+    height:100;
+    width:100;
+}
+.cartao_conteudo_resposta{
+    transform:rotateY(180deg);
+    
 }
