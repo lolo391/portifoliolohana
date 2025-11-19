@@ -34,5 +34,3 @@ function criaCartao(categoria, pergunta, resposta) {
     // Adiciona o cartão ao container
     container.appendChild(cartao);
 }
-
-}

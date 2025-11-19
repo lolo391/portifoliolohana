@@ -1,62 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Flashcard</title>
+    <title>Cartões Interativos</title>
+    <!-- Link para o seu CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <main>
-        <section id="container">
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        <p>O que é JavaScript?</p>
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>O JavaScript é uma linguagem de programação</p>
-                    </div>
-                </div>
-            </article>
+    <!-- Container onde os cartões serão adicionados -->
+    <div id="container">
+        <!-- Cartões serão inseridos aqui via JavaScript -->
+    </div>
 
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        <p>O que é CSS?</p>
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>O CSS é uma linguagem de estilização</p>
-                    </div>
-                </div>
-            </article>
-
-            <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Geografia</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        <p>Qual é a capital da França?</p>
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>A capital da França é Paris.</p>
-                    </div>
-                </div>
-            </article>
-        </section>
-    </main>
-
+    <!-- Rodapé -->
     <footer>
-        <p>Projeto desenvolvido pela Alura, sem fins lucrativos.</p>
+        <p>&copy; 2025 Seu Nome | Todos os direitos reservados</p>
     </footer>
 
-    <!-- CORRIGIDO: atributo src (não scr) -->
-    <script src="app.js"></script>
-    <script src="perguntas.js"></script>
-</body>
+    <!-- Link para o seu JavaScript -->
+    <script src="scripts.js"></script>
 
+    <script>
+        // Cria alguns cartões para testes
+        criaCartao('Categoria 1', 'Qual é a capital da França?', 'Paris');
+        criaCartao('Categoria 2', 'Qual é a fórmula da água?', 'H2O');
+        criaCartao('Categoria 3', 'Quem escreveu "Dom Casmurro"?', 'Machado de Assis');
+    </script>
+</body>
 </html>
+
 
