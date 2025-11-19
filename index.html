@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartões Interativos</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Flashcard</title>
 </head>
-
 <body>
-
-    <!-- Container onde os cartões serão adicionados -->
-    <div id="container"></div>
-
-    <!-- Rodapé -->
+    <main>
+        <section id="container">
+            <!-- <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>O que é JavaScript?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>O JavaScript é uma linguagem de programação</p>
+                    </div>
+                </div>
+            </article> -->
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2025 | Todos os direitos reservados</p>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
     </footer>
-
-    <!-- JavaScript principal -->
-    <script src="scripts.js"></script>
-
-    <!-- Cartões de teste -->
-    <script>
-        criaCartao('Geografia', 'Qual é a capital da França?', 'Paris');
-        criaCartao('Química', 'Qual é a fórmula da água?', 'H2O');
-        criaCartao('Literatura', 'Quem escreveu "Dom Casmurro"?', 'Machado de Assis');
-    </script>
-
+    <script src="app.js"></script>
+    <script src="perguntas.js"></script>
 </body>
 </html>
 
